@@ -1,0 +1,337 @@
+
+#carouselExample {
+    max-width: 600px; 
+    margin: 0 auto; 
+  }
+
+
+  #carouselExample img {
+    max-width: 100%;
+    height: auto;
+  }
+  .parallax {
+    background-image: url("../../img/fundo5.png");
+    
+    height: 100%;
+    width: 100%;
+  
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+.content {
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.navcor {
+  background-color: transparent;
+  transition: background-color 0.5s ease-in-out;
+}
+.navbar.scrolled {
+  background-color: #1a0c33;
+}
+.nav-text {
+  color: beige;
+}
+.nav-text:hover {
+  color: rgb(191, 150, 219); 
+}
+@media (max-width: 600px) {
+  .maiorque600 {
+    display: none;
+  }
+}  
+
+.navbar-nav .nav-link:hover {
+  color: rgb(191, 150, 219); 
+}
+
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+.avatar {
+  width: 20%;
+  height: 20%;
+}
+.icon {
+  width: 40%;
+  height: 40%;
+}
+
+h1{
+  color: #331638;
+}
+
+.center{
+  text-align: center;
+}
+
+
+@keyframes progressAnimation1 {
+  0% { width: 0; }
+  100% { width: 90%; }
+}
+
+
+.progress-bar-animated-1 {
+  animation: progressAnimation1 3s ease-in-out;
+}
+@keyframes progressAnimation2 {
+  0% { width: 0; }
+  100% { width: 30%; }
+}
+
+
+.progress-bar-animated-2 {
+  animation: progressAnimation2 3s ease-in-out;
+}
+@keyframes progressAnimation3 {
+  0% { width: 0; }
+  100% { width: 60%; }
+}
+
+/* Adiciona estilos para a barra de progresso animada */
+.progress-bar-animated-3 {
+  animation: progressAnimation3 3s ease-in-out; /* 3s é a duração da animação */
+}
+@keyframes progressAnimation4 {
+  0% { width: 0; }
+  100% { width: 60%; }
+}
+
+/* Adiciona estilos para a barra de progresso animada */
+.progress-bar-animated-4 {
+  animation: progressAnimation4 3s ease-in-out; /* 3s é a duração da animação */
+}
+@keyframes progressAnimation5 {
+  0% { width: 0; }
+  100% { width: 40%; }
+}
+
+/* Adiciona estilos para a barra de progresso animada */
+.progress-bar-animated-5 {
+  animation: progressAnimation5 3s ease-in-out; /* 3s é a duração da animação */
+}
+@keyframes progressAnimation6 {
+  0% { width: 0; }
+  100% { width: 50%; }
+}
+
+/* Adiciona estilos para a barra de progresso animada */
+.progress-bar-animated-6 {
+  animation: progressAnimation6 3s ease-in-out; /* 3s é a duração da animação */
+}
+.iconcor{
+  color: #331638;
+}
+.titulo{
+  color: #341157;
+}
+
+.titulo1{
+  color: rgb(219, 180, 255);
+}
+
+form {
+  background-color: #2b0e47;
+  color: white;
+  padding: 5%; 
+  border-radius: 10px;
+}
+
+.btn {
+  background-color: rgb(89, 21, 156);
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+.btn.btn-primary:hover {
+  background-color: #7728c5;
+  border-color: rgb(255, 255, 255);
+  color: white;
+}
+
+.btn:active {
+  background-color: #1a0c33;
+}
+
+
+.progress-bar {
+  border-radius: 10px; 
+}
+
+
+.-progresso {
+  width: 100%; 
+}
+
+.card h1 {
+ 
+  color: #1a0c33;
+}
+
+.card p {
+
+  color: #1a0c33;
+}
+.error-message {
+  color: #f74e48;
+}
+footer {
+  background-color: #331638;
+  color: #a796b8;
+
+}
+
+footer h4 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #331638;
+}
+
+footer h5 {
+  color: #331638;
+}
+
+
+footer li svg {
+  color: #331638;
+}
+
+.btn {
+  background-color: #331638;
+
+}
+
+footer ul li p {
+  margin-bottom: 5px;
+}
+
+
+footer p {
+  font-size: 0.9rem;
+}
+
+.text-center .p-3{
+  background-color: #381b6b;
+}
+.map-container {
+  max-width: 800px; /* Defina a largura máxima da caixa conforme necessário */
+  margin: auto; /* Centraliza a caixa */
+  border: 1px solid #ddd; /* Borda para estilo */
+  overflow: hidden; /* Evita que o conteúdo ultrapasse a borda da caixa */
+  border-radius: 10px; /* Bordas arredondadas para estilo */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para estilo */
+}
+.map-container iframe {
+  width: 100%; /* Ocupa 100% da largura da caixa */
+  height: 400px; /* Altura fixa ou ajuste conforme necessário */
+  border: 0; /* Remove a borda do iframe */
+}
+
+
+@media (min-width: 768px) {
+  .avatar,
+  .icon {
+    max-width: 100%;
+    height: auto;
+  }
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+.inicio{
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+.barra-progress {
+  width: 100%;
+  height: 20px;
+  overflow: hidden; 
+}
+.barprog{
+  background: linear-gradient(to right, #331638, #842994);
+  width: 0;
+  height: 100%;
+  transition: width 1s ease-in-out;
+}
+.aos-animate .barprog {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .titulo1 {
+    font-size: 24px; 
+  }
+}
+
+.flex {
+  min-height: 100vh; /* Garante que o corpo tenha pelo menos 100% da altura da tela */
+            display: flex;
+            align-items: center; /* Centraliza verticalmente */
+            justify-content: center; /* Centraliza horizontalmente */
+}
+
+    .progress {
+      height: 20px;
+      width: 100%;
+      background-color: #eee;
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .progress-bar {
+      width: 0;
+      height: 100%;
+      background-color: #17a2b8;
+      border-radius: 10px;
+      animation: progressAnimation 3s ease-out forwards;
+    }
+
+    @keyframes progressAnimation {
+      0% {
+        width: 0;
+      }
+    }
+
+    h5{
+      color:#31165f
+    }
+
+
+
+
